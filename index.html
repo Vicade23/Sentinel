@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./src/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Numans&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Sentinel</title>
+    <link rel="shortcut icon" href="./Images/sentinel.svg" type="image/x-icon">
+</head>
+<body class="lg:px-[3.125rem] px-[1rem] lg:pt-[2rem] pt-[2.5rem] font-[Poppins] bg-[#F7F7F7]">
+    <header class="lg:px-[2rem] lg:py-[1.3rem] px-[1rem] rounded-[6.25rem] bg-gradient-to-r from-[#4A3391] to-[#001ECA] mb-[2.5rem] ">
+        <nav class="flex flex-row justify-between items-center text-[#FFFFFF] font-medium text-[1.2rem]">
+            <div>
+                <img src="./Images/logo.svg" alt="Sentinel Logo">
+            </div>
+            <div class="lg:flex hidden justify-between gap-[15rem]">
+                <div>
+                    <ul class="space-x-[1.75rem] flex flex-row">
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>How it Works</li>
+                        <li>FAQs</li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#" class="bg-[#FFFFFF] rounded-[6.25rem] text-[#000] px-[2rem] py-[1rem]">
+                        <button>
+                            Join Waitlist
+                        </button>
+                    </a>
+                </div>
+            </div>
+             <!-- Mobile Menu Button -->
+             <div class="flex lg:hidden">
+                <button id="menu-btn">
+                    <img src="./images/menu.svg" alt="Menu Icon">
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="relative w-full h-fit " >
+            <!-- Background Image -->
+            <div style="background-image: url(./images/robot_bg.png);" class="bg-cover lg:block hidden absolute inset-0 bg-center bg-no-repeat w-full h-full lg:rounded-[3.75rem] rounded-[1.875rem] ">
+                
+            </div>
+            <div style="background-image: url(./images/mobile_bg.png);" class="bg-cover block lg:hidden absolute inset-0 bg-center bg-no-repeat w-full h-full lg:rounded-[3.75rem] rounded-[1.875rem] ">
+                
+            </div>
+
+            <!-- Gradient Overlay -->
+            <div class="absolute inset-0 bg-gradient-to-r from-[#4A3391] to-[#001ECA] opacity-50  w-full h-full lg:rounded-[3.75rem] rounded-[1.875rem] lg:block hidden"></div>
+            
+            <div class="relative z-10 flex flex-col items-start justify-center h-full text-white text-start max-w-[38.6rem] lg:px-[3.9rem] px-[1rem] lg:py-[5.5rem] py-[4.8rem]">
+                <h1 class="text-[2.7rem] font-[700] ">The Future of Campus Security is Here!</h1>
+                <p class="font-[400] text-[1rem] text-[#D7D7D7] mt-[1.5rem]">Join the waitlist and be the first to experience smart, real-time safety.</p>
+                <div class="my-[3rem] flex flex-row text-start gap-[0.7rem] items-center">
+                    <img src="./images/student.svg" alt="Registered Students" class="w-[10rem]">
+                    <p class="font-[500] lg:text-[1rem] text-[0.8rem] w-[10rem]">
+                        50+ Students Already On Board
+                    </p>
+                </div>
+                <div>
+                    <form action="#" class="flex flex-row gap-[0.9rem] flex-wrap">
+                        <!-- Input Wrapper -->
+                        <label for="email" class="rounded-full py-[0.8rem] lg:py-[1rem] lg:px-[2.38rem] px-[1.5rem] bg-[#FFFFFF1F]">
+                            <input type="email" name="email" id="email" 
+                                placeholder="Enter your Email"
+                                class="bg-transparent lg:w-[12rem] w-[15rem] font-[500] text-[#FFFFFF] text-[0.9rem] 
+                                focus:outline-none focus:ring-0 focus:border-none placeholder:text-[#FFFFFFB3]" />
+                        </label>
+                
+                        <!-- Button -->
+                        <button class="bg-[#FFFFFF] rounded-full font-[600] text-[#000000] 
+                            lg:text-[0.7rem] text-[0.9rem] py-[0.8rem] lg:py-[1rem] lg:px-[1rem] px-[1.5rem] lg:w-[12rem] w-[18rem]
+                            transition-all duration-300 hover:bg-gradient-to-r hover:from-[#483393] hover:to-[#041FC7] hover:text-white">
+                            Sign up for early access
+                        </button>
+                    </form>
+                </div>
+                
+            </div>
+        </section>
+        <section class="flex flex-col-reverse lg:flex-row flex-wrap justify-between lg:px-[6.25rem] items-center">
+            <article class="py-[3.75rem]">
+                <img src="./images/knight.svg" alt="White Knight">
+            </article>
+            <article class="lg:max-w-[34rem]">
+                <div class="relative pb-[0.75rem] w-full">
+                    <h2 class="lg:text-[2.8rem] text-[2rem] text-start font-[700] bg-gradient-to-r from-[#4A3391] to-[#001ECA] bg-clip-text text-transparent">
+                      About Sentinel
+                    </h2>
+                    <span class="absolute left-0 bottom-0 w-full h-[4px] bg-gradient-to-r from-[#4A3391] to-[#001ECA]"></span>
+                </div>
+                <p class="font-[400] text-[1rem] text-[#444444] mt-[1.5rem]">
+                    Sentinel is a smart campus security solution designed to keep students and security personnel connected in real time. Many students experience or witness security threats but hesitate to report them due to fear, lengthy processes, or uncertainty about whom to contact. Sentinel eliminates these barriers by providing a fast, anonymous, and efficient way to report incidents and access emergency assistance.
+                </p>  
+                <p class="font-[400] text-[1rem] text-[#444444] mt-[1rem]">
+                    By making safety swift, smart, and seamless, Sentinel is not just a response tool it’s a preventative solution that empowers students and ensures a more secure learning environment.
+                </p>  
+                <button class="flex items-center mt-[2rem] gap-2 px-6 py-3 font-semibold text-white bg-gradient-to-r from-[#4A3391] to-[#001ECA] rounded-full shadow-md transition-all hover:from-[#3A2878] hover:to-[#0014A6]">
+                    Sign up for early access <span class="text-lg">↗</span>
+                  </button>
+                  
+            </article>
+        </section>
+        <section>
+            <article class="w-fit m-auto text-center">
+                <h2 class="lg:text-[2.8rem] text-[1.8rem] text-center font-[700] bg-gradient-to-r from-[#4A3391] to-[#001ECA] bg-clip-text text-transparent">
+                    How Sentinel Works
+                </h2>
+                <p class="font-[500] text-[#000000] text-[1rem]">
+                    Your Campus Guardian
+                </p> 
+            </article>
+            <article class="lg:flex flex-row w-fit hidden lg:my-[6.25rem] my-[3.75rem] m-auto gap-[6.25rem]">
+                <div class="items-end w-fit mt-[1.25rem] space-y-[9.4rem] max-w-[20rem]">
+                    <img src="./images/hand_lens.svg" alt="hand_lens" class="w-fit items-end">
+                    <div class="w-fit text-end flex flex-col items-end text-[#000000] font-[500]"> 
+                        <h3 class="bg-[#960DB8] rounded-full w-fit py-[0.8rem] px-[1.3rem] text-end text-[#FFFFFF]">2</h3>
+                        <h4 class="text-[1rem] mt-[1rem]">Trigger Emergency Alerts Instantly</h4>
+                        <p class="text-[0.8rem] mt-[0.4rem]">
+                            In danger? With just one tap, notify security personnel in real-time. Help is always a moment away.
+                        </p>
+                    </div>
+                    <img src="./images/location_icon.svg" alt="location_icon" class="w-fit items-end">
+                </div>
+                <img src="./images/divider.svg" alt="Divider" class="w-fit">
+                <div class="items-start w-fit mt-[1.25rem] space-y-[9.4rem] max-w-[20rem]">
+                    <div class="w-fit text-start flex flex-col items-start text-[#000000] font-[500]"> 
+                        <h3 class="bg-[#2545FF] rounded-full w-fit py-[0.8rem] px-[1.3rem] text-start text-[#FFFFFF]">1</h3>
+                        <h4 class="text-[1rem] mt-[1rem]">Report Incidents Anonymously</h4>
+                        <p class="text-[0.8rem] mt-[0.4rem]">
+                            See something suspicious? Send a report without revealing your identity. Sentinel ensures your safety while keeping your campus secure.
+                        </p>
+                    </div>
+                    <img src="./images/siren_icon.svg" alt="siren_icon" class="w-fit ">
+                    
+                    <div class="w-fit text-start flex flex-col items-start text-[#000000] font-[500]"> 
+                        <h3 class="bg-[#2545FF] rounded-full w-fit py-[0.8rem] px-[1.3rem] text-start text-[#FFFFFF]">3</h3>
+                        <h4 class="text-[1rem] mt-[1rem]">Find Safe Routes in Real-Time</h4>
+                        <p class="text-[0.8rem] mt-[0.4rem]">
+                            Navigate campus confidently. Sentinel provides smart, real-time route guidance to help you avoid high-risk areas and stay safe.
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article class="lg:hidden flex flex-row flex-wrap justify-center space-y-[2rem] mt-[3.75rem]">
+                <div class="w-fit max-w-[20rem] m-auto text-center flex flex-col items-center text-[#000000] font-[500] bg-[#FFFFFF] p-[1.5rem] rounded-[0.75rem] "> 
+                    <h3 class="bg-[#2545FF] rounded-full w-fit py-[0.7rem] px-[1.3rem] text-center text-[#FFFFFF]">1</h3>
+                    <h4 class="text-[1rem] mt-[1rem]">Report Incidents Anonymously</h4>
+                    <p class="text-[0.8rem] mt-[0.4rem]">
+                        See something suspicious? Send a report without revealing your identity. Sentinel ensures your safety while keeping your campus secure.
+                    </p>
+                </div>
+                <div class="w-fit max-w-[20rem] m-auto text-center flex flex-col items-center text-[#000000] font-[500] bg-[#FFFFFF] p-[1.5rem] rounded-[0.75rem] "> 
+                    <h3 class="bg-[#960DB8] rounded-full w-fit py-[0.7rem] px-[1.3rem] text-center text-[#FFFFFF]">2</h3>
+                    <h4 class="text-[1rem] mt-[1rem]">Trigger Emergency Alerts Instantly</h4>
+                    <p class="text-[0.8rem] mt-[0.4rem]">
+                        In danger? With just one tap, notify security personnel in real-time. Help is always a moment away.
+                    </p>
+                </div>
+                <div class="w-fit max-w-[20rem] m-auto text-center flex flex-col items-center text-[#000000] font-[500] bg-[#FFFFFF] p-[1.5rem] rounded-[0.75rem] "> 
+                    <h3 class="bg-[#2545FF] rounded-full w-fit py-[0.7rem] px-[1.3rem] text-center text-[#FFFFFF]">3</h3>
+                    <h4 class="text-[1rem] mt-[1rem]">Find Safe Routes in Real-Time</h4>
+                    <p class="text-[0.8rem] mt-[0.4rem]">
+                        Navigate campus confidently. Sentinel provides smart, real-time route guidance to help you avoid high-risk areas and stay safe.
+                    </p>
+                </div>
+            </article>
+            
+        </section>
+    </main>
+</body>
+</html>
