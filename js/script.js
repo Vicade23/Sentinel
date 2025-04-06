@@ -22,7 +22,7 @@ allForms.forEach((form) => {
                 },
                 body: JSON.stringify({ email: email })
             }).then((response) => {
-                console.log(`You're on the waitlist!`)
+                console.log(`You're now on the waitlist!`)
 
                 const Toast = Swal.mixin({
                     toast: true,
