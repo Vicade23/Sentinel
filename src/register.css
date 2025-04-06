@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Aeoniktrial, sans-serif;
+}
+
+* ::-webkit-scrollbar {
+  width: 8px;
+}
+
+* ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+* ::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+* ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: 1;
+}
+
+textarea:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+textarea::-webkit-input-placeholder {
+  font-size: .8rem;
+}
+
+textarea:-ms-input-placeholder {
+  font-size: .8rem;
+}
+
+textarea::-ms-input-placeholder {
+  font-size: .8rem;
+}
+
+textarea::placeholder {
+  font-size: .8rem;
+}
+
+input:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+input::-webkit-input-placeholder {
+  font-size: .8rem;
+}
+
+input:-ms-input-placeholder {
+  font-size: .8rem;
+}
+
+input::-ms-input-placeholder {
+  font-size: .8rem;
+}
+
+input::placeholder {
+  font-size: .8rem;
+}
+
+select:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+select::-webkit-input-placeholder {
+  font-size: .8rem;
+}
+
+select:-ms-input-placeholder {
+  font-size: .8rem;
+}
+
+select::-ms-input-placeholder {
+  font-size: .8rem;
+}
+
+select::placeholder {
+  font-size: .8rem;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body .main {
+  width: 100%;
+}
+
+body .main .container {
+  height: 100vh;
+}
+
+body .main .container .form-sizer {
+  max-width: 450px;
+  width: 100%;
+  border-radius: 12px;
+  -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+body .main .container .form-sizer .form-container {
+  width: 100%;
+  height: inherit;
+}
+
+body .main .container .form-sizer .form-container .h2 {
+  font-size: 24px;
+  font-weight: 600 !important;
+  color: #181616;
+}
+
+body .main .container .form-sizer .form-container .form-input .label {
+  font-size: 16px;
+  font-weight: 600 !important;
+  color: #181616;
+}
+
+body .main .container .form-sizer .form-container .form-input .form-control {
+  border-radius: 8px;
+  padding: 14px;
+  font-size: .9rem;
+  font-weight: 500 !important;
+}
+
+body .main .container .form-sizer .form-container .form-input .form-control::-webkit-input-placeholder {
+  color: #633b3e;
+}
+
+body .main .container .form-sizer .form-container .form-input .form-control:-ms-input-placeholder {
+  color: #633b3e;
+}
+
+body .main .container .form-sizer .form-container .form-input .form-control::-ms-input-placeholder {
+  color: #633b3e;
+}
+
+body .main .container .form-sizer .form-container .form-input .form-control::placeholder {
+  color: #633b3e;
+}
+
+body .main .container .form-sizer .form-container .form-input .oauth-btn {
+  border: 1px solid #181616;
+  font-size: .9rem;
+  font-weight: 600 !important;
+  border-radius: 999px;
+  padding: 12px;
+  font-size: .9rem;
+  -webkit-transition: .05s ease;
+  transition: .05s ease;
+  cursor: pointer;
+}
+
+body .main .container .form-sizer .form-container .form-input .oauth-btn span {
+  color: #181616;
+}
+
+body .main .container .form-sizer .form-container .form-input .oauth-btn img {
+  width: 30px;
+}
+
+body .main .container .form-sizer .form-container .form-input .oauth-btn:hover {
+  background-color: #181616;
+  color: #fff;
+}
+
+body .main .container .form-sizer .form-container .form-input .oauth-btn:hover span {
+  color: #fff;
+}
+
+body .main .container .form-sizer .form-container .form-input .btn {
+  background-color: #181616;
+  color: #fff;
+  font-size: .9rem;
+  font-weight: 600 !important;
+  border-radius: 999px;
+  padding: 16px;
+  font-size: .9rem;
+  border: 1px solid #181616;
+}
+
+body .main .container .form-sizer .form-container .form-input .btn:hover {
+  background-color: #252222;
+}
+
+body .main .container .form-sizer .form-container .or-absolute-container span {
+  font-size: .8rem;
+  color: #4f4c4c;
+}
+
+body .main .container .form-sizer .form-container .conditional-navigation {
+  font-size: .9rem;
+  color: #181616;
+}
+
+body .main .container .form-sizer .form-container .conditional-navigation a {
+  font-weight: 600 !important;
+  text-decoration: none;
+}
+/*# sourceMappingURL=register.css.map */

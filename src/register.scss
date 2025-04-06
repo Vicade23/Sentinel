@@ -1,0 +1,174 @@
+$default-color: #fff;
+// $bg-color: #6C060D;
+$bg-color: #181616;
+
+* {
+    padding: 0;
+    margin: 0;
+    transition: .3s ease;
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+        &:hover {
+            background: #555;
+        }
+    }
+    box-sizing: border-box;
+    font-family: Aeoniktrial, sans-serif;;
+}
+
+
+
+input:focus, 
+select:focus, 
+button:focus,
+textarea:focus
+
+{ 
+    box-shadow: none !important;
+    border: 1;
+}
+
+
+
+textarea{ 
+    &:focus{
+        outline: none !important;
+        box-shadow: none !important;
+
+    }
+    &::placeholder{
+        font-size: .8rem;  
+    }
+ } 
+
+input{ 
+    &:focus{
+        outline: none !important;
+        box-shadow: none !important;
+
+    }
+    &::placeholder{
+        font-size: .8rem;  
+    }
+ }
+
+ select{ 
+     &:focus{
+         outline: none !important;
+         box-shadow: none !important;
+ 
+     }
+     &::placeholder{
+         font-size: .8rem;  
+     }
+  }
+
+
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+    .main {
+        width: 100%;
+
+        .container {
+            height: 100vh;
+            .form-sizer {
+                max-width: 450px;
+                width: 100%;
+                border-radius: 12px;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, .15);
+                .form-container {
+                    width: 100%;
+                    height: inherit;
+                    .h2 {
+                        font-size: 24px;
+                        font-weight: 600 !important;
+                        color: $bg-color;
+                    }
+                    .form-input {
+                        .label {
+                            font-size: 16px;
+                            font-weight: 600 !important;
+                            color: $bg-color;
+                        }
+                        .form-control {
+                            border-radius: 8px;
+                            padding: 14px;
+                            font-size: .9rem;
+                            font-weight: 500 !important;
+                            &::placeholder {
+                                color: #633b3e;
+                            }
+                        }
+                        
+                        .oauth-btn {
+                            border: 1px solid $bg-color;
+                            font-size: .9rem;
+                            font-weight: 600 !important;
+                            border-radius: 999px;
+                            padding: 12px;
+                            font-size: .9rem;
+                            transition: .05s ease;
+                            cursor: pointer;
+                            span {
+                                color: $bg-color;
+                            }
+                            img {
+                                width: 30px;
+                            }
+                            &:hover {
+                                background-color: $bg-color;
+                                color: $default-color;
+
+                                span {
+                                    color: $default-color;
+                                }
+                            }
+                        }
+
+                        .btn {
+                            background-color: $bg-color;
+                            color: $default-color;
+                            font-size: .9rem;
+                            font-weight: 600 !important;
+                            border-radius: 999px;
+                            padding: 16px;
+                            font-size: .9rem;
+                            border: 1px solid $bg-color;
+                            &:hover {
+                                background-color: #252222;
+                            }
+                        }
+                        
+                    }
+                    .or-absolute-container {
+                        span {
+                            font-size: .8rem;
+                            color: #4f4c4c;
+                        }
+                    }
+                    .conditional-navigation {
+                        font-size: .9rem;
+                        color: $bg-color;
+                        a {
+                            font-weight: 600 !important;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
