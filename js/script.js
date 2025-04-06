@@ -4,8 +4,6 @@
 
 const allForms = document.querySelectorAll('.form');
 
-
-
 allForms.forEach((form) => {
     form.addEventListener('submit', async (e) => {
         e.preventDefault()
@@ -80,11 +78,3 @@ allForms.forEach((form) => {
         
     })
 })
-
-
-        // await axios.post('https://script.google.com/macros/s/AKfycbxQBhOBfi08Del4WLM_4hX7EclZJ2wOdBKx-P9DkbaU34rmzZAnEbT4prWURVai_TOt/exec', { email })
-        // .then((response) => {
-        //     console.log(`You're on the waitlist!`)
-        // }).catch((error) => {
-        //     console.log(error.message)
-        // })

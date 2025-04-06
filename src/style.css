@@ -136,6 +136,14 @@ body {
   font-size: 16px;
 }
 
+@media (max-width: 575px) {
+  .header .navbar .container .nav-cta-container .btn {
+    width: 130px;
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
 .header .navbar .container .menu-btn-container .btn {
   background-color: transparent;
   border: none;
@@ -291,9 +299,16 @@ body {
   font-size: 16px;
 }
 
+@media (max-width: 575px) {
+  .header .hero-container .hero .context-cover .row .cols .hero-form-cta .input {
+    padding: 14px 20px;
+    font-size: 14px;
+  }
+}
+
 .header .hero-container .hero .context-cover .row .cols .hero-form-cta .input::placeholder {
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .header .hero-container .hero .context-cover .row .cols .hero-form-cta .btn-container {
@@ -320,6 +335,8 @@ body {
 @media (max-width: 575px) {
   .header .hero-container .hero .context-cover .row .cols .hero-form-cta .btn-container .btn {
     width: 100%;
+    padding: 12px 0;
+    font-size: 14px;
   }
 }
 
@@ -613,9 +630,16 @@ body {
   font-size: 16px;
 }
 
+@media (max-width: 575px) {
+  .main .container .section-3 .row .cta-section-container .input {
+    padding: 14px 20px;
+    font-size: 14px;
+  }
+}
+
 .main .container .section-3 .row .cta-section-container .input::placeholder {
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .main .container .section-3 .row .cta-section-container .btn-container {
@@ -642,6 +666,8 @@ body {
 @media (max-width: 575px) {
   .main .container .section-3 .row .cta-section-container .btn-container .btn {
     width: 100%;
+    padding: 12px;
+    font-size: 14px;
   }
 }
 
@@ -871,9 +897,16 @@ body {
   font-size: 16px;
 }
 
+@media (max-width: 575px) {
+  .main .container .section-6 .row .cta-section-container .input {
+    padding: 14px 20px;
+    font-size: 14px;
+  }
+}
+
 .main .container .section-6 .row .cta-section-container .input::placeholder {
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .main .container .section-6 .row .cta-section-container .btn-container {
@@ -900,6 +933,8 @@ body {
 @media (max-width: 575px) {
   .main .container .section-6 .row .cta-section-container .btn-container .btn {
     width: 100%;
+    padding: 12px;
+    font-size: 14px;
   }
 }
 
@@ -938,15 +973,9 @@ body {
   width: 140px;
 }
 
-@media (max-width: 991px) {
-  .footer .container .logo-container img {
-    width: 120px;
-  }
-}
-
 @media (max-width: 575px) {
   .footer .container .logo-container img {
-    width: 100px;
+    width: 140px;
   }
 }
 
@@ -991,7 +1020,7 @@ body {
 
 @media (max-width: 991px) {
   .footer .container .nav-cta-container {
-    display: flex;
+    display: none;
     justify-content: center;
     margin-top: 20px;
   }

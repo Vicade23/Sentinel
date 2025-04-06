@@ -125,11 +125,6 @@ body {
                     width: 150px;
                     font-weight: 600 !important;
                     font-size: 16px;
-                    @media (max-width: 575px) {
-                        width: 130px;
-                        padding: 8px;
-                        font-size: 14px;
-                    }
                 }
             }
             .menu-btn-container {
@@ -245,13 +240,9 @@ body {
                                 border: none;
                                 color: #ffffff;
                                 font-size: 16px;
-                                @media (max-width: 575px) {
-                                    padding: 14px 20px;
-                                    font-size: 14px;
-                                }
                                 &::placeholder {
                                     color: #fff;
-                                    font-size: 14px;
+                                    font-size: 18px;
                                 }
                             }
                             .btn-container {
@@ -270,8 +261,6 @@ body {
                                     font-size: 16px;
                                     @media (max-width: 575px) {
                                         width: 100%;
-                                        padding: 12px 0;
-                                        font-size: 14px;
                                     }
                                 }
                             }
@@ -513,13 +502,9 @@ body {
                             border: none;
                             color: #ffffff;
                             font-size: 16px;
-                            @media (max-width: 575px) {
-                                padding: 14px 20px;
-                                font-size: 14px;
-                            }
                             &::placeholder {
                                 color: #fff;
-                                font-size: 14px;
+                                font-size: 18px;
                             }
                         }
                         .btn-container {
@@ -538,8 +523,6 @@ body {
                                 font-size: 16px;
                                 @media (max-width: 575px) {
                                     width: 100%;
-                                    padding: 12px;
-                                    font-size: 14px;
                                 }
                             }
                         }
@@ -725,13 +708,9 @@ body {
                             border: none;
                             color: #ffffff;
                             font-size: 16px;
-                            @media (max-width: 575px) {
-                                padding: 14px 20px;
-                                font-size: 14px;
-                            }
                             &::placeholder {
                                 color: #fff;
-                                font-size: 14px;
+                                font-size: 18px;
                             }
                         }
                         .btn-container {
@@ -750,8 +729,6 @@ body {
                                 font-size: 16px;
                                 @media (max-width: 575px) {
                                     width: 100%;
-                                    padding: 12px;
-                                    font-size: 14px;
                                 }
                             }
                         }
@@ -787,11 +764,11 @@ body {
             }
             img {
                 width: 140px;
-                // @media (max-width: 991px) {
-                //     width: 120px;
-                // }
+                @media (max-width: 991px) {
+                    width: 120px;
+                }
                 @media (max-width: 575px) {
-                    width: 140px;
+                    width: 100px;
                 }
             }
         }
@@ -828,7 +805,7 @@ body {
         }
         .nav-cta-container {
             @media (max-width: 991px) {
-                display: none;
+                display: flex;
                 justify-content: center;
                 margin-top: 20px;
             }
