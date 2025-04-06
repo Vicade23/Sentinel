@@ -35,7 +35,7 @@ allForms.forEach((form) => {
                   });
                   Toast.fire({
                     icon: "success",
-                    title: "You're on the waitlist!"
+                    title: "You're now on the waitlist!"
                   });
 
                 form.reset()
